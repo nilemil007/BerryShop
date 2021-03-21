@@ -1,0 +1,199 @@
+/*************************************/
+/*********** Screen 992 PX ***********/
+/*************************************/
+
+/*===================================*/
+/* Health Tips	 					 */
+/*===================================*/
+@media screen and (max-width: 992px){
+	.health-tips {
+	    padding: 50px 0px;
+	    margin: 40px 0px;
+	}
+	.health-tips p {
+	    font-size: 20px;
+	    width: 595px;
+	}
+}
+
+
+
+/*************************************/
+/*********** Screen 768 PX ***********/
+/*************************************/
+
+/*===================================*/
+/* Header Part	 					 */
+/*===================================*/
+@media screen and (max-width: 768px){
+	.navigation{
+		display: block;
+	}
+	.header-part .logo,
+	.header-part .main-menus{
+    	width: 100%;
+	}
+	.header-part .logo{
+		text-align: center;
+	}
+	.main-menus ul {
+	    justify-content: center;
+	}
+
+/*===================================*/
+/* Strawberry Benefits				 */
+/*===================================*/
+	.strawberry-benefits p{
+	    width: 90%;	
+	}
+
+/*===================================*/
+/* Nutrition						 */
+/*===================================*/
+	.nutrition-content {
+	    width: 100%;
+	}
+	.strawberry-img img,
+	.elements .strawberry-img img {
+	    width: 100%;
+	}
+	.nutrition-content h3,
+	.elements .elements-content h3 {
+	    width: 100%;
+	    padding: 0px 10px;
+	}
+
+/*===================================*/
+/* Strawberry Elements				 */
+/*===================================*/
+	.elements .strawberry-img{
+		text-align: center;
+	    padding: 60px 0px 0px;
+	}
+	.elements-content {
+	    padding: 15px 0px 50px;
+	}
+
+/*===================================*/
+/* 	Health Benefits					 */
+/*===================================*/
+	.health-benefits {
+	    display: block;
+	    padding: 50px 0px;
+	}
+	.health-benefits .right img {
+	    width: 100%;
+	}
+
+/*===================================*/
+/* Health Tips	 					 */
+/*===================================*/
+	.health-tips {
+	    margin: 0px 0px 40px;
+	}
+	.health-tips p {
+	    font-size: 18px;
+	    width: 95%;
+	}
+
+/*===================================*/
+/* Strawberry Purchase	 			 */
+/*===================================*/
+	.purchase {
+	    margin-bottom: 30px;
+	}
+    .purchase .strawberry-img img{
+	    width: 100%;
+	}
+	.purchase .purchase-content h3 {
+	    width: 100%;
+	}
+
+/*===================================*/
+/* Footer Part	 					 */
+/*===================================*/
+	.footer-part {
+	    display: block;
+	    text-align: center;
+	}
+	.social-icon ul {
+	    text-align: center;
+	    margin-top: 15px;
+	}
+}
+
+
+
+
+
+/*************************************/
+/*********** Screen 586 PX ***********/
+/*************************************/
+
+/*===================================*/
+/* Header Part	 					 */
+/*===================================*/
+@media screen and (max-width: 586px){
+	.main-menus ul {
+	    display: block;
+	    background: rgba(255, 102, 102, .6);
+    	text-align: center;
+    	padding-bottom: 10px;
+	}
+	.main-menus ul li {
+	    margin-right: 0px;
+	}
+	.main-menus ul li:hover:not(:last-child){
+	    background: rgba(255, 102, 102, .6);
+	    color: #ffffff;
+	}
+	.main-menus ul li:hover a{
+	    color: #ffffff;
+	}
+	.fa-shopping-cart{
+		color: #ffffff;
+	}
+
+/*===================================*/
+/* Strawberry Benefits				 */
+/*===================================*/
+	.btn-group a{
+		display: block;
+	    margin-bottom: 10px;
+	}
+
+
+}
+
+
+/*************************************/
+/*********** Screen 330 PX ***********/
+/*************************************/
+
+/*===================================*/
+/* Header Part	 					 */
+/*===================================*/
+@media screen and (max-width: 330px){
+	.header-part{
+		height: 75vh;
+	}
+	.purchase-btn {
+	    bottom: -15%;
+	}
+	.purchase-btn a {
+	    border: 1px solid #ff6666;
+	}
+	.purchase-btn a {
+	    padding: 12px 28px;
+	}
+
+/*===================================*/
+/* Strawberry Benefits				 */
+/*===================================*/
+	.strawberry-benefits p{
+		text-align: justify;	
+	}
+	.strawberry-benefits{
+		padding-bottom: 30px;	
+	}
+}
